@@ -22,7 +22,7 @@ resource "aws_instance" "ubuntu" {
   ami           = data.aws_ami.ubuntu.id
   instance_type = var.instance_type
   root_block_device {
-  volume_size = "30"
+  volume_size = "35"
   }
 
   tags = {
