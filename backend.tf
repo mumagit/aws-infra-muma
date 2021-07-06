@@ -3,7 +3,7 @@ terraform {
     organization = "example-org-141577"
 
     workspaces {
-      prefix = "tfc-guide-example-"
+      prefix = "aws-infra-muma-"
     }
   }
 
